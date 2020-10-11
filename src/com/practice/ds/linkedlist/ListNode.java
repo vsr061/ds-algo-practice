@@ -1,10 +1,13 @@
 package com.practice.ds.linkedlist;
 
 public class ListNode {
+    //Current Node Value
     int val;
+    //Next Node Reference
     ListNode next;
 
-    ListNode() {
+    //Empty Node Constructor
+    public ListNode() {
     }
 
     ListNode(int val) {
